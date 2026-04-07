@@ -3,29 +3,13 @@
     "version": ">= 18.5.0",
     "appVersionSource": "remote"
   },
-  
-  
   "build": {
     "preview": {
+      "node": "20.19.4",
       "android": {
         "buildType": "apk"
-      },
-      "node": "20.19.4" 
-    }
-  }
-
-
-  
-  
-  ,
-    
-    "preview": {
-  "android": {
-    "buildType": "apk"
-  }
-}
-
-    ,
+      }
+    },
     "production": {
       "autoIncrement": true
     }
